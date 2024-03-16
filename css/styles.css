@@ -721,11 +721,8 @@ img {
     color: #FFFFFF;
 }
 
-.footer-form {
+.subscription-form {
     display: flex;
-}
-
-.email-container {
     gap: 24px;
 }
 
@@ -743,10 +740,6 @@ img {
     color: #FFFFFF;
 }
 
-.E-mail {
-    color: #FFFFFF;
-}
-
 .subscribe-btn {
     min-width: 165px;
     height: 40px;
@@ -760,4 +753,8 @@ img {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+}
+
+.footer-svg-icon {
+    margin-left: 16px;
 }
