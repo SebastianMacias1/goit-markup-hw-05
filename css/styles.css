@@ -721,11 +721,6 @@ img {
     color: #FFFFFF;
 }
 
-.subscription-form {
-    display: flex;
-    gap: 24px;
-}
-
 .field-to-entry-email {
     width: 264px;
     height: 40px;
