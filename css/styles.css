@@ -726,6 +726,7 @@ img {
     height: 40px;
     border: 1px solid #FFFFFF;
     background-color: transparent;
+    font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -748,6 +749,7 @@ img {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    padding: 8px 24px;
 }
 
 .footer-svg-icon {
