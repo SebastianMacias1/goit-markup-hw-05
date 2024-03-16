@@ -753,3 +753,8 @@ img {
 .footer-svg-icon {
     margin-left: 16px;
 }
+
+.subscription-form {
+    display: flex;
+    gap: 24px;
+}
