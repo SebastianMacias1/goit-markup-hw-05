@@ -13,7 +13,8 @@
 --filter-button-color: var(--IRIS, #4D5AE5);
 --title-image-color: var(--NAVY-BLUE, #2E2F42);
 --text-image-color: var(--SLATE, #434455);
---border-color: var(--CORNFLOWER, #E7E9FC)
+--border-color: var(--CORNFLOWER, #E7E9FC);
+--modela-color: var(#8e8f99);
 }
 
 
@@ -786,6 +787,7 @@ img {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: trasform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .window-button {
@@ -817,4 +819,47 @@ img {
 
 .svg-icon-modala-btn {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-icon-modala-btn:hover:focus {
+    fill: #ffffff;
+}
+
+.p-modala {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--background-footer-color);
+    margin-bottom: 16px;
+}
+
+.window-frame {
+    margin-bottom: 8px;
+}
+
+.label-modela {
+    font-size: 12px;
+    line-height: 1.17;
+    color: var(--modela-color);
+    display: block;
+    margin-bottom: 4px;
+}
+
+.containr-input-icon {
+    position: relative;
+}
+
+.modela-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modela-input:focus {
+    border-color: #4D5AE5;
 }
