@@ -787,8 +787,8 @@ img {
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: trasform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .window-button {
@@ -811,19 +811,18 @@ img {
 .window-button:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .window-button:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
+
 
 .svg-icon-modala-btn {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.svg-icon-modala-btn:hover:focus {
-    fill: #ffffff;
 }
 
 .p-modala {
@@ -843,9 +842,10 @@ img {
 .label-modela {
     font-size: 12px;
     line-height: 1.17;
-    color: var(--modela-color);
     display: block;
     margin-bottom: 4px;
+    letter-spacing: 0.04em;
+    color: var(--modela-color);
 }
 
 .containr-input-icon {
