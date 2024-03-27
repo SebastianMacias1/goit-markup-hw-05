@@ -903,11 +903,10 @@ img {
     margin-bottom: 24px;
 }
 
-.label-checkbox {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--modela-text-color)
+.modal-check:checked + .modal-check-text span {
+    background-color: var(--web-color);
+    fill: #f4f4fd;
+    border: none;
 }
 
 .checkbox-span {
@@ -949,4 +948,15 @@ img {
 
 .custom-link {
     color: #4D5AE5;
+}
+
+.modal-check-icon {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
