@@ -3,18 +3,18 @@
     --studio-color:var(--NAVY-BLUE, #2E2F42);
     --background-body-color: var(--WHITE, #FFFFFF);
     --background-footer-color: var(--NAVY-BLUE, #2E2F42);
---f-link-color: var(--NAVY-BLUE, #2E2F42);
---contact-color: var(--SLATE, #434455);
---section-first-background-color: var(--NAVY-BLUE, #2E2F42);
---heading-three-color: var(--NAVY-BLUE, #2E2F42);
---heading-two-color: var(--NAVY-BLUE, #2E2F42);
---footer-background: var(--NAVY-BLUE, #2E2F42);
---p-footer-color: var(--CLOUD, #F4F4FD);
---filter-button-color: var(--IRIS, #4D5AE5);
---title-image-color: var(--NAVY-BLUE, #2E2F42);
---text-image-color: var(--SLATE, #434455);
---border-color: var(--CORNFLOWER, #E7E9FC);
---modela-color: var(#8e8f99);
+    --f-link-color: var(--NAVY-BLUE, #2E2F42);
+    --contact-color: var(--SLATE, #434455);
+    --section-first-background-color: var(--NAVY-BLUE, #2E2F42);
+    --heading-three-color: var(--NAVY-BLUE, #2E2F42);
+    --heading-two-color: var(--NAVY-BLUE, #2E2F42);
+    --footer-background: var(--NAVY-BLUE, #2E2F42);
+    --p-footer-color: var(--CLOUD, #F4F4FD);
+    --filter-button-color: var(--IRIS, #4D5AE5);
+    --title-image-color: var(--NAVY-BLUE, #2E2F42);
+    --text-image-color: var(--SLATE, #434455);
+    --border-color: var(--CORNFLOWER, #E7E9FC);
+    --modela-text-color: var(--#8e8f99);
 }
 
 
@@ -907,7 +907,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--modela-color);
+    color: var(--modela-text-color)
 }
 
 .checkbox-span {
@@ -944,4 +944,8 @@ img {
 
 .footer-form {
     margin-left: auto;
+}
+
+.window-frame-two {
+    margin-bottom: 16px;
 }
