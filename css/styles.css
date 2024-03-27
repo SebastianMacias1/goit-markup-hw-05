@@ -922,9 +922,6 @@ img {
     fill: transparent;
 }
 
-.link-checkbox {
-    color: var(--filter-button-color);
-}
 
 .button-checkbox {
     display: block;
@@ -948,4 +945,8 @@ img {
 
 .window-frame-two {
     margin-bottom: 16px;
+}
+
+.custom-link {
+    color: #4D5AE5;
 }
